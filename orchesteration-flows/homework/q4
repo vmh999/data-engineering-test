@@ -1,0 +1,11 @@
+--load the green taxi data by running
+
+/workspaces/data-engineering-test/orchesteration-flows/05_postgres_taxi_scheduled.yaml
+
+for year 2020 all months by runnings backfills 
+
+then 
+
+SELECT count(*) FROM public.green_tripdata
+
+1,734,051

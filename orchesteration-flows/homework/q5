@@ -1,0 +1,8 @@
+run this flow 
+orchesteration-flows/postgres_taxi.yaml
+
+to load Yellow Taxi data for the March 2021 
+
+SELECT count(*) FROM public.yellow_tripdata
+
+1,925,152

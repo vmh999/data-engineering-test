@@ -1,0 +1,9 @@
+
+file: "{{inputs.taxi}}_tripdata_{{inputs.year}}-{{inputs.month}}.csv"
+        
+
+{{inputs.taxi}}  = green
+{{inputs.year}}  = 2020
+{{inputs.month}} = 04
+
+file = green__tripdata_2020-04.csv
