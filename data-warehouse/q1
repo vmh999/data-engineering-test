@@ -1,0 +1,13 @@
+CREATE OR REPLACE EXTERNAL TABLE
+ `project-171ed7ef-0c5d-4a96-902.vinayak_kestra_zoomcamp_dataset.external_yellow_tripdata`
+OPTIONS (
+  format = 'PARQUET',
+  uris = ['gs://project-171ed7ef-0c5d-4a96-902-zoomcamp-bucket/yellow_tripdata_2024-*.parquet' 
+          
+          ]
+);
+
+select count(*) 
+from  `project-171ed7ef-0c5d-4a96-902.vinayak_kestra_zoomcamp_dataset.external_yellow_tripdata`
+
+20332093

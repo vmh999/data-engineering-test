@@ -1,0 +1,12 @@
+CREATE OR REPLACE TABLE 
+`project-171ed7ef-0c5d-4a96-902.vinayak_kestra_zoomcamp_dataset.yellow_tripdata_regular_np` AS
+SELECT * FROM 
+`project-171ed7ef-0c5d-4a96-902.vinayak_kestra_zoomcamp_dataset.external_yellow_tripdata`;
+
+
+select count(distinct PULocationID) from `project-171ed7ef-0c5d-4a96-902.vinayak_kestra_zoomcamp_dataset.external_yellow_tripdata`;
+
+select count(distinct PULocationID) from `project-171ed7ef-0c5d-4a96-902.vinayak_kestra_zoomcamp_dataset.yellow_tripdata_regular_np`;
+
+
+0 MB for the External Table and 155.12 MB for the Materialized Table

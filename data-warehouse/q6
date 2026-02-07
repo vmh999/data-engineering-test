@@ -1,0 +1,11 @@
+--310.24
+select distinct VendorID
+from `project-171ed7ef-0c5d-4a96-902.vinayak_kestra_zoomcamp_dataset.yellow_tripdata_regular_np`
+where tpep_dropoff_datetime >= '2024-03-01' 
+and   tpep_dropoff_datetime <= '2024-03-15' 
+
+--26.84
+select distinct VendorID
+from `project-171ed7ef-0c5d-4a96-902.vinayak_kestra_zoomcamp_dataset.yellow_tripdata_partcluster`
+where tpep_dropoff_datetime >= '2024-03-01' 
+and   tpep_dropoff_datetime <= '2024-03-15' 
